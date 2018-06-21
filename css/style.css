@@ -4,11 +4,11 @@ img.teaming-logo-small {
 }
 
 img.teaming-logo-normal {
-    height: 70%;
+    width: 70%;
     max-height: 50px;
 }
 
 img.teaming-logo-medium {
-    height: 70%;
+    width: 70%;
     max-height: 100px;
 }
