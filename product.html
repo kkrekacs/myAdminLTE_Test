@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Termékek</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/AdminLTE.css">
+  <!-- AdminLTE Skins. -->
+  <link rel="stylesheet" href="css/_all-skins.css">
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="hold-transition skin-green-light sidebar-mini">
+  <div class="wrapper">
+
+    <!-- Main Header -->
+    <header class="main-header">
+
+      <!-- Logo -->
+      <a href="login.html" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini">
+          <img class="teaming-logo-small" src="img/Teaming360logo_only.svg" alt="T360">
+        </span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg">
+          <img class="teaming-logo-normal" src="img/Teaming360logo_full.svg" alt="Teaming360">
+        </span>
+      </a>
+
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+          <span class="sr-only">Menü ki/bezár</span>
+        </a>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar">
+
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Keresés...">
+            <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+        <!-- /.search form -->
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu" data-widget="tree">
+          <li class="header">NAVIGÁCIÓ</li>
+          <!-- Optionally, you can add icons to the links -->
+          <li class="active">
+            <a href="login.html">
+              <i class="fa fa-link"></i>
+              <span>Bejelentkezés</span>
+            </a>
+          </li>
+          <li>
+            <a href="customer.html">
+              <i class="fa fa-link"></i>
+              <span>Vásárlók</span>
+            </a>
+          </li>
+          <li>
+            <a href="#.html">
+              <i class="fa fa-link"></i>
+              <span>Termékek</span>
+            </a>
+          </li>
+          <li>
+            <a href="order.html">
+              <i class="fa fa-link"></i>
+              <span>Megrendelések</span>
+            </a>
+          </li>
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+              <h1>
+               Teaming 360
+                <small>Otthon a csapatsportokban!</small>
+              </h1>
+            </section>
+        
+            <!-- Main content -->
+            <section class="content">
+        
+              <!-- Default box -->
+              <div class="box">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Terméklista</h3>
+        
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+                            title="Collapse">
+                      <i class="fa fa-minus"></i></button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+                      <i class="fa fa-times"></i></button>
+                  </div>
+                </div>
+                <div class="box-body">
+                  Válaszd ki a megfelelő terméket!  
+                </div>
+                <div class="box">
+                  <div class="box-header">
+                  </div>
+                  <!-- /.box-header -->
+                  <div class="box-body no-padding">
+                    <table class="table table-striped">
+                      <tr>
+                        <th>Termék ID</th>
+                        <th>Kategória</th>
+                        <th>Kategória ID</th>
+                        <th>Márka</th>
+                        <th>Terméknév</th>
+                        <th>Beszerzési ár (nettó Ft)</th>
+                        <th>Vásárlói ár (Ft)</th>
+                      </tr>
+                        <tr>
+                          <td>10001</td>
+                          <td>Labdák</td>
+                          <td>TM0001</td>
+                          <td>Maniac</td>
+                          <td>Futball labda</td>
+                          <td>985</td>
+                          <td>1490</td>
+                        </tr>
+                        <tr>
+                          <td>10002</td>
+                          <td>Labdák</td>
+                          <td>TM0001</td>
+                          <td>VolleyStar</td>
+                          <td>Röplabda, Bézs</td>
+                          <td>895</td>
+                          <td>1390</td>
+                        </tr>
+                        <tr>
+                          <td>10003</td>
+                          <td>Labdák</td>
+                          <td>TM0001</td>
+                          <td>Robust</td>
+                          <td>Klasszikus kosárlabda</td>
+                          <td>748</td>
+                          <td>1190</td>
+                        </tr>
+                        <tr>
+                          <td>10004</td>
+                          <td>Labdák</td>
+                          <td>TM0001</td>
+                          <td>Robust</td>
+                          <td>Kézilabda, Kék</td>
+                          <td>543</td>
+                          <td>890</td>
+                        </tr>
+                        <tr>
+                          <td>10005</td>
+                          <td>Labdák</td>
+                          <td>TM0001</td>
+                          <td>Tunturi</td>
+                          <td>Vízliabda, Sárga</td>
+                          <td>748</td>
+                          <td>1190</td>
+                        </tr>
+                        <tr>
+                          <td>10006</td>
+                          <td>Ruházat</td>
+                          <td>TM0002</td>
+                          <td>Nike</td>
+                          <td>Ujjatlan kesztyű, Fekete</td>
+                          <td>1489</td>
+                          <td>2290</td>
+                        </tr>
+                        <tr>
+                          <td>10007</td>
+                          <td>Ruházat</td>
+                          <td>TM0002</td>
+                          <td>Adidas</td>
+                          <td>Futball mez, Real Madrid</td>
+                          <td>12898</td>
+                          <td>19990</td>
+                        </tr>
+                        <tr>
+                          <td>10008</td>
+                          <td>Ruházat</td>
+                          <td>TM0002</td>
+                          <td>Arena</td>
+                          <td>Úszódressz, Zöld</td>
+                          <td>4987</td>
+                          <td>7590</td>
+                        </tr>
+                        <tr>
+                          <td>10009</td>
+                          <td>Ruházat</td>
+                          <td>TM0002</td>
+                          <td>Puma</td>
+                          <td>Stoplis cipő, Lila</td>
+                          <td>18729</td>
+                          <td>28990</td>
+                        </tr>
+                        <tr>
+                          <td>10010</td>
+                          <td>Ruházat</td>
+                          <td>TM0002</td>
+                          <td>Nike</td>
+                          <td>Short</td>
+                          <td>5479</td>
+                          <td>8490</td>
+                        </tr>
+                        <tr>
+                          <td>10011</td>
+                          <td>Bírói kellékek</td>
+                          <td>TM0003</td>
+                          <td>Robust</td>
+                          <td>Síp</td>
+                          <td>185</td>
+                          <td>290</td>
+                        </tr>
+                        <tr>
+                          <td>10012</td>
+                          <td>Bírói kellékek</td>
+                          <td>TM0003</td>
+                          <td>ProJudge</td>
+                          <td>Kártyakészlet</td>
+                          <td>1025</td>
+                          <td>1590</td>
+                        </tr>
+                        <tr>
+                          <td>10013</td>
+                          <td>Bírói kellékek</td>
+                          <td>TM0003</td>
+                          <td>ProJudge</td>
+                          <td>Bírói mez, Fekete</td>
+                          <td>7568</td>
+                          <td>11990</td>
+                        </tr>
+                        <tr>
+                          <td>10014</td>
+                          <td>Bírói kellékek</td>
+                          <td>TM0003</td>
+                          <td>ProJudge</td>
+                          <td>Sárga lap készlet</td>
+                          <td>748</td>
+                          <td>1190</td>
+                        </tr>
+                        <tr>
+                          <td>10015</td>
+                          <td>Bírói kellékek</td>
+                          <td>TM0003</td>
+                          <td>ProJudge</td>
+                          <td>Piros lap készlet</td>
+                          <td>748</td>
+                          <td>1190</td>
+                        </tr>
+                        <tr>
+                          <td>10016</td>
+                          <td>Szurkolóknak</td>
+                          <td>TM0004</td>
+                          <td>Robust</td>
+                          <td>Szurkolói flag, Barcelona</td>
+                          <td>1569</td>
+                          <td>2390</td>
+                        </tr>
+                        <tr>
+                          <td>10017</td>
+                          <td>Szurkolóknak</td>
+                          <td>TM0004</td>
+                          <td>Robust</td>
+                          <td>Szurkolói flag, Real Madrid</td>
+                          <td>1569</td>
+                          <td>2390</td>
+                        </tr>
+                        <tr>
+                          <td>10018</td>
+                          <td>Szurkolóknak</td>
+                          <td>TM0004</td>
+                          <td>Robust</td>
+                          <td>Szurkolói flag, Fradi</td>
+                          <td>1569</td>
+                          <td>2390</td>
+                        </tr>
+                        <tr>
+                          <td>10019</td>
+                          <td>Szurkolóknak</td>
+                          <td>TM0004</td>
+                          <td>Robust</td>
+                          <td>Szurkolói flag, Újpest</td>
+                          <td>1569</td>
+                          <td>2390</td>
+                        </tr>
+                        <tr>
+                          <td>10020</td>
+                          <td>Szurkolóknak</td>
+                          <td>TM0004</td>
+                          <td>Maybelinne</td>
+                          <td>Arcfesték-készlet</td>
+                          <td>5769</td>
+                          <td>8790</td>
+                        </tr>
+                        <tr>
+                          <td>10021</td>
+                          <td>Kellékek labdához</td>
+                          <td>TM0005</td>
+                          <td>HandballPro</td>
+                          <td>Wax</td>
+                          <td>2431</td>
+                          <td>3690</td>
+                        </tr>
+                        <tr>
+                          <td>10022</td>
+                          <td>Kellékek labdához</td>
+                          <td>TM0005</td>
+                          <td>Robust</td>
+                          <td>Klasszikus kosárlabda</td>
+                          <td>748</td>
+                          <td>1190</td>
+                        </tr>
+                        <tr>
+                          <td>10023</td>
+                          <td>Kellékek labdához</td>
+                          <td>TM0005</td>
+                          <td>Avento</td>
+                          <td>Tűkészlet labdapumpához, 3 db</td>
+                          <td>325</td>
+                          <td>590</td>
+                        </tr>
+                        <tr>
+                          <td>10024</td>
+                          <td>Kellékek labdához</td>
+                          <td>TM0005</td>
+                          <td>Avento</td>
+                          <td>Manuális pumpa</td>
+                          <td>1598</td>
+                          <td>2490</td>
+                        </tr>
+                        <tr>
+                            <td>10025</td>
+                            <td>Kellékek labdához</td>
+                            <td>TM0005</td>
+                            <td>Spokey</td>
+                            <td>Elektromos pumpa</td>
+                            <td>7891</td>
+                            <td>1199</td>
+                          </tr>
+                    </table>
+                  </div>
+                  <!-- /.box-body -->
+              </div>
+              <!-- /.box -->
+        
+            </section>
+            <!-- /.content -->
+          </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+      <!-- Default to the left -->
+      <strong>Copyright &copy; 2018
+        <a href="#"><b>Teaming</b>360</a>.</strong> Minden jog fenntartva!.
+    </footer>
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED JS SCRIPTS -->
+
+  <!-- jQuery 3 -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap 3.3.7 -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="js/adminlte.js"></script>
+</body>
+
+</html>
